@@ -1,4 +1,4 @@
-# -R-KITEC-responsive
+# 'R'KITEC-responsive
 
 ## Estructura de Carpetes
 Carpeta principal que abarca:
