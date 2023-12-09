@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacte</title>
+        <link rel="stylesheet" href="/css/contacte.css">
+    </head>
+    <body>
+        <header>
+            <h1>'R' KITEC - Contacte</h1>
+        </header>
+
+        <nav>
+            <a href="Inici.html">Inici</a>
+            <a href="projectes.html">Projectes</a>
+            <a href="Serveis.html">Serveis</a>
+            <a href="Contacte.html">Contacte</a>
+        </nav>
+
+        <main>
+            <h2>Contacte</h2>
+            <p>Contacta'ns per discutir el teu proper projecte!</p>
+            <div>
+                <ul class="columna">
+                    <lh><b>Ens trobaràs a:</b></lh> 
+                    <li>C/Caracas, 6, 07007, Palma de Mallorca, Illes Balears</li>
+                    <li>Telèfon: 971 27 81 55</li>
+                    <li>Correu: <a href="mailto:"cifpfrancescdeborjamoll@educaib.eu>cifpfrancescdeborjamoll@educaib.eu</a></li>
+                    <br>
+                    <lh><b>Horari general:</b></lh>
+                    <li>Matí: 8:30h a 14:30h</li>
+                    <li>Tarda: 16:00h a 18:00h</li>
+                    <br>
+                    <lh><b>Horari secretaria:</b></lh>
+                    <li>Matí: 9:00h a 13:00h (de dilluns a divendres).</li>
+                    <li>Dimarts: 16:00h a 20:00h.</li>
+                </ul>
+
+
+                <form class="columna" action="'R' KITEC.html" method="post">
+                    <label for="name">Nom</label>
+                        <input id="name" type="text" name="Nom" autofocus required>
+                        <br>
+
+                    <label for="surname">Cognoms</label>
+                        <input id="surname" type="text" name="Cognom" required>
+                        <br>
+
+                    <label for="Correu">Correu electrònic</label>
+                        <input id="Correu" type="email" name="Correu" placeholder="p.e: agarcia@iespolitecnic.cat" required>
+                        <br>
+
+                    <label for="telf">Telèfon</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                        <br>
+
+                    <label for="Adreça">Missatge</label>
+                        <textarea id="msg" name="missatge" rows="8" cols="40" placeholder="Escriu aquí el teu missatge"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <p>'R' KITEC®</p>
+        </footer>
+    </body>
+</html>

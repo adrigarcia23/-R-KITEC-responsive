@@ -1,0 +1,89 @@
+/* Estil per mòbils */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        display: block;
+    }
+
+}
+
+/* Estil per tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Estil per monitors d'escriptori */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+/* Estil general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 8px;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espai entre columnes */
+}
+
+.columna {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
